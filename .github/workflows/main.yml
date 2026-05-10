@@ -27,7 +27,7 @@ jobs:
         POSTGRES_USER: kittygram_user
         POSTGRES_PASSWORD: kittygram_password
         DB_NAME: kittygram
-        DB_HOST: 148.0.0.0
+        DB_HOST: 0.0.0.0
         DB_PORT: 5432
       run: |
         python -m ruff check backend/
